@@ -50,17 +50,17 @@ def go_up():
     if head.direction != "down":
         head.direction = "up"
 
-
+#function to move down
 def go_down():
     if head.direction != "up":
         head.direction = "down"
 
-
+#function to move left
 def go_left():
     if head.direction != "right":
         head.direction = "left"
 
-
+#function to move right
 def go_right():
     if head.direction != "left":
         head.direction = "right"
@@ -184,5 +184,4 @@ while True:
                       font=("Courier", 24, "normal"))
 
     time.sleep(delay)
-
 wn.mainloop()
